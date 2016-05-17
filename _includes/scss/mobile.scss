@@ -1,0 +1,17 @@
+@media (max-width: 50em) {
+  .cover {
+    padding: 100px 0;
+    figure {
+      flex-direction: column;
+      text-align: center;
+      top: 0;
+      transform: translateY(0);
+    }
+    img {
+      margin: 0 auto;
+    }
+    figcaption {
+      padding-left: 0;
+    }
+  }
+}

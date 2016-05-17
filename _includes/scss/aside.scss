@@ -1,0 +1,11 @@
+.aside {
+  position: fixed;
+  top: 0;
+  right: -400px;
+  z-index: 100;
+  width: 400px;
+  height: 100%;
+  background: #be1e2d;
+  background: linear-gradient(to right, #9c1421 , #be1e2d);
+  transition: right .5s;
+}

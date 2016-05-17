@@ -7,18 +7,25 @@
     <link rel="stylesheet" href="{{site.baseurl}}style.css">
   </head>
   <body class="{{page.class}}">
-    <header>
+    <header class="header">
       <a href="/" class="wordmark"><img src="{{site.baseurl}}img/wordmark.svg" alt="Treks"></a>
       <div class="menu">
         <button type="button"><img src="{{site.baseurl}}img/menu.svg" alt="Menu"></button>
       </div>
     </header>
-    {{content}}
-    <footer>
+    <main>
+      {{content}}
+    </main>
+    <footer class="footer">
       <div class="copyright">&copy; 2016 TREKS. All Rights Reserved</div>
       <div class="contact">
         <a href="mailto:info@treks.events">info@treks.events</a>
       </div>
     </footer>
+    <aside class="aside">
+      <header>
+        <h2>Treks Services</h2>
+      </header>
+    </aside>
   </body>
 </html>
