@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{page.name}} - {{site.name}}</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{{site.baseurl}}style.css">
+  </head>
+  <body class="{{page.class}}">
+    <header>
+      <a href="/" class="wordmark"><img src="{{site.baseurl}}img/wordmark.svg" alt="Treks"></a>
+      <div class="menu">
+        <button type="button"><img src="{{site.baseurl}}img/menu.svg" alt="Menu"></button>
+      </div>
+    </header>
+    {{content}}
+    <footer>
+      <div class="copyright">&copy; 2016 TREKS. All Rights Reserved</div>
+      <div class="contact">
+        <a href="mailto:info@treks.events">info@treks.events</a>
+      </div>
+    </footer>
+  </body>
+</html>

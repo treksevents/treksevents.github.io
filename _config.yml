@@ -1,0 +1,5 @@
+name: Treks.events
+baseurl: ""
+sass:
+  style: compressed
+  sass_dir: _includes/scss
