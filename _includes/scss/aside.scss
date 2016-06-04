@@ -8,4 +8,47 @@
   background: #be1e2d;
   background: linear-gradient(to right, #9c1421 , #be1e2d);
   transition: right .5s;
+  color: #fff;
+  padding: 30px;
+  overflow: auto;
+  a {
+    display: block;
+    padding: 15px;
+    background-color: #9e2621;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: border-color .5s;
+    margin-bottom: 20px;
+    &:hover {
+      border-color: rgba(255,255,255,.6);
+    }
+  }
+  h2 {
+    text-transform: uppercase;
+    margin-top: 0;
+  }
+  h3 {
+    text-transform: uppercase;
+    margin: 0;
+  }
+  p {
+    margin: 0;
+  }
+  .type {
+    font-size: .8rem;
+    color: #ffd577;
+    margin: 6px 0;
+  }
+  button {
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
 }

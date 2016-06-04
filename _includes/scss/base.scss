@@ -1,17 +1,33 @@
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 20px;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
 body {
-  font-family: 'Poppins', sans-serif;
+  background-color: #f15a29;
+	font-family: 'Open Sans', sans-serif;
+  //font-family: 'Poppins', sans-serif;
   font-weight: 300;
   line-height: 1.2;
 }
-h1, h2, h3 {
+b {
   font-weight: 700;
+}
+h1, h2, h3 {
+  //font-family: 'Poppins', sans-serif;
+	font-family: 'Exo 2', sans-serif;
+  font-weight: 700;
+}
+h1 {
+	font-size: 6rem;
+}
+h2 {
+	font-size: 2rem;
+}
+h3 {
+	font-size: 1.5rem;
 }
 button {
   cursor: pointer;

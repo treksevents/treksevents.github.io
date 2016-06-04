@@ -1,0 +1,46 @@
+.story {
+  color: #666;
+  background-color: #fff;
+  margin-bottom: 160px;
+  padding: 100px;
+  text-align: center;
+  z-index: 1;
+  h2 {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+  h2, h3 {
+    color: #222;
+  }
+  p {
+    width: 50%;
+    margin: 30px auto;
+  }
+  figure {
+    margin: 30px 0;
+  }
+  .hr1 {
+    width: 100px;
+    margin: 100px auto;
+    border-bottom: 3px solid #f15a29;
+  }
+  .hr2 {
+    width: 50px;
+    margin: 50px auto;
+    border-bottom: 3px solid #ddd;
+  }
+  dl {
+    width: 50%;
+    line-height: 2;
+    margin: 30px auto;
+  }
+  dt {
+    float: left;
+    width: 40%;
+    padding-right: 30px;
+    text-align: right;
+  }
+  dd {
+    text-align: left;
+  }
+}

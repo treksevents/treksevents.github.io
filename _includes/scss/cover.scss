@@ -1,5 +1,4 @@
 .cover {
-  background-color: #f15a29;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,7 +6,7 @@
   min-height: 100vh;
   figure {
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -19,15 +18,17 @@
   figcaption {
     padding-left: 100px;
   }
-  h2 {
+  h1 {
     color: #fff;
-    font-size: 7rem;
-    margin: 3rem 0 0;
+    font-size: 6rem;
+    margin: 0;
+    letter-spacing: -0.3rem;
+    line-height: 1;
   }
   p {
     color: rgba(255,255,255,.7);
     font-size: 2rem;
-    margin: 0 0 3rem;
+    margin: 1rem 0 3rem;
   }
   .btn {
     border: 1px solid rgba(255,255,255,.7);
@@ -44,9 +45,22 @@
       border-color: #fff;
     }
   }
+  article {
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+ }
 }
 .home {
   .cover {
     background-image: url('img/bg/home.jpg');
+  }
+}
+.alliancerainforest {
+  .cover {
+    background-image: url('img/bg/alliancerainforest.jpg');
   }
 }
