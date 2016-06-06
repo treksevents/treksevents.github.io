@@ -6,16 +6,25 @@
   color: rgba(255,255,255,.7);
   display: flex;
   justify-content: space-between;
+  z-index: -1;
+}
+.home .footer {
+  z-index: 0;
 }
 .copyright, .contact {
-  padding: 40px;
+  padding: 30px;
 }
 .copyright {
-  padding-top: 60px
+  padding-top: 60px;
+  font-size: .75rem;
+  position: absolute;
+  bottom: 0;
 }
 .contact {
+  text-align: right;
+  line-height: 30px;
   a {
-    font-size: 1.5rem;
+    // font-size: 1.5rem;
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;

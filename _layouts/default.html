@@ -7,27 +7,16 @@
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="shortcut icon" href="favicon.png">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700|Exo+2:700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600|Exo+2:700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="{{site.baseurl}}style.css">
   </head>
   <body class="{{page.class}}">
-    <header class="header">
-      <a href="/" class="wordmark"><img src="{{site.baseurl}}img/wordmark.svg" alt="Treks"></a>
-      <div class="menu">
-        <button type="button" id="menu"><img src="{{site.baseurl}}img/menu.svg" alt="Menu"></button>
-      </div>
-    </header>
+    {% include html/header.html %}
     <main>
       {{content}}
     </main>
     {% include html/aside.html %}
-    <footer class="footer">
-      <div class="copyright">&copy; 2016 TREKS. All Rights Reserved</div>
-      <div class="contact">
-        <a href="mailto:info@treks.events">info@treks.events</a><br>
-        <a href="callto:+60104015262">Eddie +6010 401 5262</a>
-      </div>
-    </footer>
+    {% include html/footer.html %}
     <script src="{{site.baseurl}}script.js"></script>
   </body>
 </html>

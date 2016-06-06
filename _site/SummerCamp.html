@@ -2,37 +2,79 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title> - Treks.events</title>
+    <title>Summer Camp - Treks.events</title>
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="shortcut icon" href="favicon.png">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700|Exo+2:700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600|Exo+2:700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="style.css">
   </head>
   <body class="summercamp">
-    <header class="header">
-      <a href="/" class="wordmark"><img src="img/wordmark.svg" alt="Treks"></a>
-      <div class="menu">
-        <button type="button" id="menu"><img src="img/menu.svg" alt="Menu"></button>
-      </div>
-    </header>
+    <header class="header" id="header">
+  <a href="/" class="wordmark"><img src="img/wordmark.svg" alt="Treks"></a>
+  <div class="menu">
+    <button type="button" id="menu"><img src="img/menu.svg" alt="Menu"></button>
+  </div>
+</header>
+
     <main>
-      <section class="cover">
-  <figure>
-    <img src="img/logo.svg" alt="Treks" class="logo">
-    <figcaption>
-      <h1>Summer Camp</h1>
-      <p>Camping, multi-discipline activities</p>
-      <button class="btn" type="button">Read more</button>
-    </figcaption>
-  </figure>
+      <section class="cover" style="background-image: url('img/summercamp/bg.jpg');">
+  <article>
+    <h1>Summer Camp</h1>
+    <p>Camping, multi-discipline activities</p>
+    <button class="btn" type="button">Read more</button>
+  </article>
 </section>
 <section class="story">
   <article>
-    <p>page 31</p>
+    <p>The main concept of our Summer Camp is that it offers kids a “Multi-Disciplinary” program. Each activity on the itinerary challenges kids to focus on acquiring the “right disciplines”, ie. to do things with process correctness and of high quality.</p>
 
+    <div class="collage">
+      <div class="left">
+        <div class="pic tall">
+          <img src="/img/summercamp/pic-01.jpg" alt="" />
+        </div>
+      </div>
+      <div class="right">
+        <div class="pic">
+          <img src="/img/summercamp/pic-02.jpg" alt="" />
+        </div>
+        <div class="pic">
+          <img src="/img/summercamp/pic-03.jpg" alt="" />
+        </div>
+      </div>
+    </div>
 
+    <div class="hr1"></div>
+  </article>
+  <article>
+    <h2>Range of activities</h2>
+    <dl>
+      <dt><b>Camping</b></dt>
+      <dd>Camp-setting, cooking, fire starting, cleaning, tiding up sleeping quarters Sports: Archery, Rock Climbing, Abseil, Dodgeball</dd>
+
+      <dt><b>Nature</b></dt>
+      <dd>Trekking, Identifying sounds of the forest, types of plants, animal habitats, survival skills, bird watching, butterflies and insecting, herping</dd>
+
+      <dt><b>Conservation</b></dt>
+      <dd>Pitcher Plants conservation, Elephant sanctuary visit</dd>
+
+      <dt><b>Star Gazing</b></dt>
+      <dd>Planets, Constellations</dd>
+
+      <dt><b>Art &amp; Craft</b></dt>
+      <dd>Color painting, matisse, carving, rattan weaving, pottery</dd>
+
+      <dt><b>Community</b></dt>
+      <dd>Che Wong Orang Asli Settlement</dd>
+
+      <dt><b>Photography &amp; Tech</b></dt>
+      <dd>Basic photography, video documentary (smart phone)</dd>
+
+      <dt><b>Team activities</b></dt>
+      <dd>The REEL Simulator for kids</dd>
+    </dl>
   </article>
 </section>
 
@@ -40,7 +82,10 @@
     <aside class="aside">
   <header>
     <h2>Treks Services</h2>
-    <button type="button" id="menuclose"><img src="img/menuclose.svg" alt="Close menu"></button>
+    <button type="button" id="menuclose">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.22,10L20,17.78,17.78,20,10,12.22,2.22,20,0,17.78,7.78,10,0,2.22,2.22,0,10,7.78,17.78,0,20,2.22Z"/></svg>
+
+    </button>
   </header>
   <a href="/AllianceRainforest">
     <h3>Alliance of Rainforest</h3>
@@ -65,7 +110,7 @@
   <a href="/NatureWalks">
     <h3>Nature Walks</h3>
     <div class="type">Guided walks</div>
-    <p>Magnificient plants of Genting Highlands; Supermodels of the fashion forest</p>
+    <p>Magnificent plants of Genting Highlands; Supermodels of the fashion forest</p>
   </a>
   <a href="/SpecialWalks">
     <h3>Special Walks</h3>
@@ -105,12 +150,13 @@
 </aside>
 
     <footer class="footer">
-      <div class="copyright">&copy; 2016 TREKS. All Rights Reserved</div>
-      <div class="contact">
-        <a href="mailto:info@treks.events">info@treks.events</a><br>
-        <a href="callto:+60104015262">Eddie +6010 401 5262</a>
-      </div>
-    </footer>
+  <div class="copyright">&copy; 2016 TREKS. All Rights Reserved</div>
+  <div class="contact">
+    <a href="mailto:info@treks.events">info@treks.events</a><br>
+    <a href="callto:+60104015262">Eddie +6010 401 5262</a>
+  </div>
+</footer>
+
     <script src="script.js"></script>
   </body>
 </html>

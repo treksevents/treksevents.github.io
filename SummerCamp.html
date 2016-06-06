@@ -1,22 +1,63 @@
 ---
 layout: default
-name: Summer Camp
+title: Summer Camp
 class: summercamp
 ---
-<section class="cover">
-  <figure>
-    <img src="{{site.baseurl}}img/logo.svg" alt="Treks" class="logo">
-    <figcaption>
-      <h1>Summer Camp</h1>
-      <p>Camping, multi-discipline activities</p>
-      <button class="btn" type="button">Read more</button>
-    </figcaption>
-  </figure>
+<section class="cover" style="background-image: url('{{site.baseurl}}img/{{page.class}}/bg.jpg');">
+  <article>
+    <h1>{{page.title}}</h1>
+    <p>Camping, multi-discipline activities</p>
+    <button class="btn" type="button">Read more</button>
+  </article>
 </section>
 <section class="story">
   <article>
-    <p>page 31</p>
+    <p>The main concept of our Summer Camp is that it offers kids a “Multi-Disciplinary” program. Each activity on the itinerary challenges kids to focus on acquiring the “right disciplines”, ie. to do things with process correctness and of high quality.</p>
 
+    <div class="collage">
+      <div class="left">
+        <div class="pic tall">
+          <img src="/img/{{page.class}}/pic-01.jpg" alt="" />
+        </div>
+      </div>
+      <div class="right">
+        <div class="pic">
+          <img src="/img/{{page.class}}/pic-02.jpg" alt="" />
+        </div>
+        <div class="pic">
+          <img src="/img/{{page.class}}/pic-03.jpg" alt="" />
+        </div>
+      </div>
+    </div>
 
+    <div class="hr1"></div>
+  </article>
+  <article>
+    <h2>Range of activities</h2>
+    <dl>
+      <dt><b>Camping</b></dt>
+      <dd>Camp-setting, cooking, fire starting, cleaning, tiding up sleeping quarters Sports: Archery, Rock Climbing, Abseil, Dodgeball</dd>
+
+      <dt><b>Nature</b></dt>
+      <dd>Trekking, Identifying sounds of the forest, types of plants, animal habitats, survival skills, bird watching, butterflies and insecting, herping</dd>
+
+      <dt><b>Conservation</b></dt>
+      <dd>Pitcher Plants conservation, Elephant sanctuary visit</dd>
+
+      <dt><b>Star Gazing</b></dt>
+      <dd>Planets, Constellations</dd>
+
+      <dt><b>Art &amp; Craft</b></dt>
+      <dd>Color painting, matisse, carving, rattan weaving, pottery</dd>
+
+      <dt><b>Community</b></dt>
+      <dd>Che Wong Orang Asli Settlement</dd>
+
+      <dt><b>Photography &amp; Tech</b></dt>
+      <dd>Basic photography, video documentary (smart phone)</dd>
+
+      <dt><b>Team activities</b></dt>
+      <dd>The REEL Simulator for kids</dd>
+    </dl>
   </article>
 </section>

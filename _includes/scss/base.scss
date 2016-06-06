@@ -1,19 +1,36 @@
 html {
   box-sizing: border-box;
   font-size: 20px;
+  overflow-x: hidden;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
 body {
-  background-color: #f15a29;
+  background-color: $orange-dd;
 	font-family: 'Open Sans', sans-serif;
   //font-family: 'Poppins', sans-serif;
   font-weight: 300;
   line-height: 1.2;
 }
+.alliancerainforest,
+.fashionforest,
+.skyforest,
+.chocolateforest,
+.naturewalks,
+.specialwalks,
+.specialinterestwalks {
+  background-color: $green-dd;
+}
+.corporateevents,
+.mountainmanchallenge,
+.summercamp,
+.unisonbuilding {
+  background-color: $purple-dd;
+}
+
 b {
-  font-weight: 700;
+  font-weight: 600;
 }
 h1, h2, h3 {
   //font-family: 'Poppins', sans-serif;

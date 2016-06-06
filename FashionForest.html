@@ -1,36 +1,60 @@
 ---
 layout: default
-name: Fashion Forest
+title: Fashion Forest
 class: fashionforest
 ---
-<section class="cover">
-  <figure>
-    <img src="{{site.baseurl}}img/logo.svg" alt="Treks" class="logo">
-    <figcaption>
-      <h1>Fashion Forest</h1>
-      <p>Explore an Upper Dipterocarp forest on your own feet</p>
-      <button class="btn" type="button">Read more</button>
-    </figcaption>
-  </figure>
-</section>
-<section class="story">
+<section class="cover" style="background-image: url('/img/{{page.class}}/bg.jpg');">
   <article>
-    <h2>Immerse in Nature</h2>
-    <p>
-      Self-discover the bio-diversity of an upper dipterocarp forest using QR code.
-    </p>
-    <h2>Pricing</h2>
-
-    STRUCTURE OF THE FASHION FOREST
-The Fashion Forest is located at the Awana Longhouse.
-It covers a main trail of 350m + 150m of a side trail.
-It offers 5 scenic bio-diversity galleries which showcases the best of an Upper Dipteropcarp Forest. Fashion Forest offers visual aids and information signs that helps guests appreciate and get to know the abundant bio-diversity of the forest.
-
-SELF-GUIDED FASHION FOREST WALKS
-Guests who signed up for this walk will be picked up from the TREKS outlet at 9.00am daily. Guest will be transferred to the entrance of the Fashion Forest located at the Awana Longhouse.
-Participants will be provided with a Fashion Forest self-guided booklet / info guide. Fashion Forest guides will be at hand to provide guidance and assistance. Bottled drinking water is provided free.
-
-Rates: RM 35.00 per person (12 years & above) RM 30.00 per person (11 years & below) Transport is provided
-
+    <h1>{{page.title}}</h1>
+    <p>Explore an Upper Dipterocarp forest on your own feet</p>
+    <button class="btn" type="button">Read more</button>
   </article>
+</section>
+
+<section class="story">
+<article>
+  <h2>Immerse in Nature</h2>
+  <p>
+    Self-discover the bio-diversity of an upper dipterocarp forest using QR code.
+  </p>
+  <div class="hr2"></div>
+  <h3>Structure of the Fashion Forest</h3>
+  <p>
+    The Fashion Forest is located at the Awana Longhouse.
+    It covers a main trail of 350m + 150m of a side trail.
+    It offers 5 scenic bio-diversity galleries which showcases the best of an Upper Dipteropcarp Forest. Fashion Forest offers visual aids and information signs that helps guests appreciate and get to know the abundant bio-diversity of the forest.
+  </p>
+</article>
+<article>
+  <div class="collage">
+    <div class="left">
+      <div class="pic tall">
+        <img src="/img/{{page.class}}/pic-01.jpg" alt="" />
+      </div>
+    </div>
+    <div class="right">
+      <div class="pic">
+        <img src="/img/{{page.class}}/pic-02.jpg" alt="" />
+      </div>
+      <div class="pic">
+        <img src="/img/{{page.class}}/pic-03.jpg" alt="" />
+      </div>
+    </div>
+  </div>
+
+  <div class="hr1"></div>
+</article>
+<article>
+  <h2>SELF-GUIDED FASHION FOREST WALKS</h2>
+  <p>Guests who signed up for this walk will be picked up from the TREKS outlet at 9.00am daily. Guest will be transferred to the entrance of the Fashion Forest located at the Awana Longhouse.</p>
+  <p>Participants will be provided with a Fashion Forest self-guided booklet / info guide. Fashion Forest guides will be at hand to provide guidance and assistance. Bottled drinking water is provided free.</p>
+
+  <div class="hr1"></div>
+</article>
+<article>
+  <h2>Pricing</h2>
+  <p>RM 35/adult (12 years &amp; above)</p>
+  <p>RM 30/child (11 years &amp; below)</p>
+  <div class="hr2"></div>
+  <p>Transport is provided</p>
 </section>

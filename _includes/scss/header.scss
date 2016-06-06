@@ -12,4 +12,33 @@
     background-color: transparent;
     border: 0;
   }
+  &.fixed {
+    position: fixed;
+    background-color: $orange-dd;
+    padding: 15px;
+    height: 50px;
+    z-index: 10;
+    img {
+      height: 20px;
+    }
+  }
+}
+.alliancerainforest,
+.fashionforest,
+.skyforest,
+.chocolateforest,
+.naturewalks,
+.specialwalks,
+.specialinterestwalks {
+  header.fixed {
+    background-color: $green-dd;
+  }
+}
+.corporateevents,
+.mountainmanchallenge,
+.summercamp,
+.unisonbuilding {
+  header.fixed {
+    background-color: $purple-dd;
+  }
 }

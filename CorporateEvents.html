@@ -1,23 +1,39 @@
 ---
 layout: default
-name: Corporate Events
+title: Corporate Events
 class: corporateevents
 ---
-<section class="cover">
-  <figure>
-    <img src="{{site.baseurl}}img/logo.svg" alt="Treks" class="logo">
-    <figcaption>
-      <h1>Corporate Events</h1>
-      <p>Family day, treasure hunt, annual dinner</p>
-      <button class="btn" type="button">Read more</button>
-    </figcaption>
-  </figure>
-</section>
-<section class="story">
+<section class="cover" style="background-image: url('{{site.baseurl}}img/{{page.class}}/bg.jpg');">
   <article>
-    <p>These are Family Days, CSR exercises, Treasure Hunts with a Nature emphasis.
-An Art, Music, Fashion and Nature Festival was conducted on a small scale back in 2014 to simulated a rainforest event ala Sarawak chapter.</p>
-
-
+    <h1>{{page.title}}</h1>
+    <p>Family day, treasure hunt, annual dinner</p>
+    <button class="btn" type="button">Read more</button>
   </article>
+</section>
+
+<section class="story">
+<article>
+  <p>These are Family Days, CSR exercises, Treasure Hunts with a Nature emphasis.
+An Art, Music, Fashion and Nature Festival was conducted on a small scale back in 2014 to simulated a rainforest event ala Sarawak chapter.</p>
+</article>
+<article>
+  <div class="collage">
+    <div class="left">
+      <div class="pic">
+        <img src="/img/{{page.class}}/pic-01.jpg" alt="" />
+      </div>
+      <div class="pic">
+        <img src="/img/{{page.class}}/pic-02.jpg" alt="" />
+      </div>
+    </div>
+    <div class="right">
+      <div class="pic">
+        <img src="/img/{{page.class}}/pic-03.jpg" alt="" />
+      </div>
+      <div class="pic">
+        <img src="/img/{{page.class}}/pic-04.jpg" alt="" />
+      </div>
+    </div>
+  </div>
+</article>
 </section>

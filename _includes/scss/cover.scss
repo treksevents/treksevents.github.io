@@ -4,6 +4,10 @@
   background-size: cover;
   height: 800px;
   min-height: 100vh;
+  // position: fixed;
+  // width: 100%;
+  // top: 0;
+  // left: 0;
   figure {
     margin: 0 auto;
     width: 60%;
@@ -20,25 +24,26 @@
   }
   h1 {
     color: #fff;
-    font-size: 6rem;
+    font-size: 5rem;
     margin: 0;
-    letter-spacing: -0.3rem;
+    // letter-spacing: -0.3rem;
     line-height: 1;
+    text-transform: uppercase;
   }
   p {
     color: rgba(255,255,255,.7);
-    font-size: 2rem;
+    font-size: 1.4rem;
     margin: 1rem 0 3rem;
   }
   .btn {
     border: 1px solid rgba(255,255,255,.7);
-    font-size: 1.2rem;
+    font-size: .85rem;
     color: #fff;
     background-color: transparent;
     text-transform: uppercase;
-    height: 50px;
-    line-height: 20px;
-    padding: 14px 50px;
+    height: 40px;
+    line-height: 38px;
+    padding: 0 50px;
     transition: all .5s;
     &:hover {
       background-color: rgba(255,255,255,.2);
@@ -57,10 +62,5 @@
 .home {
   .cover {
     background-image: url('img/bg/home.jpg');
-  }
-}
-.alliancerainforest {
-  .cover {
-    background-image: url('img/bg/alliancerainforest.jpg');
   }
 }

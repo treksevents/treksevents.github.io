@@ -1,23 +1,32 @@
 ---
 layout: default
-name: Mountain Man Challenge
+title: Mountain Man Challenge
 class: mountainmanchallenge
 ---
-<section class="cover">
-  <figure>
-    <img src="{{site.baseurl}}img/logo.svg" alt="Treks" class="logo">
-    <figcaption>
-      <h1>Mountain Man Challenge</h1>
-      <p>Gladiator team challenge</p>
-      <button class="btn" type="button">Read more</button>
-    </figcaption>
-  </figure>
+<section class="cover" style="background-image: url('{{site.baseurl}}img/{{page.class}}/bg.jpg');">
+  <article>
+    <h1>{{page.title}}</h1>
+    <p>Gladiator team challenge</p>
+    <button class="btn" type="button">Read more</button>
+  </article>
 </section>
+
 <section class="story">
   <article>
-    
-    <p>page 31</p>
-
-
+    <div class="collage">
+      <div class="left">
+        <div class="pic tall">
+          <img src="/img/{{page.class}}/pic-01.jpg" alt="" />
+        </div>
+      </div>
+      <div class="right">
+        <div class="pic">
+          <img src="/img/{{page.class}}/pic-02.jpg" alt="" />
+        </div>
+        <div class="pic">
+          <img src="/img/{{page.class}}/pic-03.jpg" alt="" />
+        </div>
+      </div>
+    </div>
   </article>
 </section>
