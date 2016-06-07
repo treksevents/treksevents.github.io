@@ -1,5 +1,6 @@
 .collage {
   display: flex;
+  flex-wrap: wrap;
   .left, .right {
     width: 50%;
   }

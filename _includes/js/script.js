@@ -94,5 +94,9 @@
     cover();
   });
 
-
+  $('.cover button').click(function() {
+    $('html, body').animate({
+        scrollTop: $("section.story").offset().top
+    }, 2000);
+  });
 })();
