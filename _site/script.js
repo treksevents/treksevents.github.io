@@ -67,6 +67,20 @@ $(function(){
     }
   }
 
+  function footer() {
+    var dh = doc.height();
+    var wh = win.height();
+    var st = win.scrollTop();
+    var ft = $('#footer');
+
+    // console.log(dh + ' | ' + wh + ' | ' + (dh-wh-150) + ' | ' + st);
+    if ((dh-wh-150) < st) {
+      ft.css('z-index', 0);
+    } else {
+      ft.css('z-index', -1);
+    }
+  }
+
   function cover() {
     var h = win.height();
     var t = win.scrollTop();
@@ -92,11 +106,13 @@ $(function(){
     });
   }
   header();
+  footer();
   cover();
   story();
 
   win.on('scroll resize', debounce(function(e) {
     header();
+    footer();
   }, 200, false));
 
   win.on('scroll resize', function(e) {

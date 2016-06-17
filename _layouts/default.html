@@ -6,11 +6,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="shortcut icon" href="{{site.baseurl}}favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600|Exo+2:700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="{{site.baseurl}}style.css">
   </head>
-  <body class="{{page.class}}">
+  <body class="{{layout.class}} {{page.class}}">
     {% include html/header.html %}
     <main>
       {{content}}

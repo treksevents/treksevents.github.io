@@ -1,0 +1,46 @@
+.learn {
+  background-color: $orange;
+  .header {
+    z-index: 2;
+    svg {
+      fill: #D1BD9B;
+    }
+    &.fixed {
+      background-color: $orange;
+      svg {
+        fill: #fff;
+      }
+    }
+  }
+  .aside {
+    background-color: $orange;
+    a {
+      background-color: darken($orange, 10%);
+    }
+    button {
+      svg {
+        fill: darken($orange, 10%);
+      }
+    }
+  }
+  .story {
+    // background-color: #FFF1D0;
+    padding: 150px 100px;
+    h1 {
+      color: #000;
+      margin-bottom: 100px;
+    }
+    a {
+      text-decoration: none;
+      font-style: italic;
+      color: #D1BD9B;
+    }
+    // &::before {
+    //   border-color: transparent transparent #FFF1D0 transparent;
+    //
+    // }
+    // &::after {
+    //   border-color: #FFF1D0 transparent transparent transparent;
+    // }
+  }
+}
