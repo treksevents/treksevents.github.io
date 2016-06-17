@@ -1,0 +1,11 @@
+---
+title: Rotan bacap - Daemonorops leptopus Mart.
+link: http://www.palmpedia.net/wiki/Daemonorops_leptopus
+layout: learn
+---
+# {{page.title}}
+
+Robust rattan, clustering but with few stems, reaching about 15 m. Stem without sheaths up to 2.5 cm in diameter, usually less. Internodes to 18 cm long, much less in upper parts of mature flowering individuals. Stem with sheaths usually about 3 cm diameter exceptionally up to 6 cm. Sheath dull green, mottled with yellow and black, armed with scattered reflexed very rigid spines, these particularly below the knee in groups of 3-8. Largest spines about 4 cm, usually less than 2 cm. Knee conspicuous, with a rounded protrusion, hardly wrinkled below as in most species, the two lateral faces inerm, but armed along the mid-line with scattered or grouped spines like the sheath. Leaf very large, often up to 5 m in length with petiole to 50 cms long and cirrus to 2 m. Petiole yellowish green with grey mottling surrounding each spine, this distinctive colouration continuing along length ofrachis. Leaflets up to about 40 on each side ± regularly arranged pendulous rather distant, bright green, to about 35 cm long by 2 cm wide. Inflorescences male and female superficially similar with up to 13 partial inflorescences, bracts all but the first quickly falling, the first bract to 25 cm or more long by 6.5 cm wide, with 2 keels armed with distant spines to 2 cm long, all bracts extremely tough and leathery, almost woody. Mature fruit to 18 mm long by 10 mm wide, ovate oblong, covered with 15 vertical rows of dull brown scales, with darker margins. Seedling unknown. (J. Dransfield. 1979)/Palmweb. Editing by edric.
+"Rotan bacap" is a rattan widespread in Malaya but nowhere very common, usually occurring as isolated individuals. It can be found from lowlands near sea-level right up to upper hill Dipterocarp forest at 1000 m. It can be found in swampy valley bottoms, steep hill slopes and ridgetops, hence appearing to be very catholic in its ecological requirements. The coloration of the sheath and petiole and rachis is highly diagnostic - the curious mottling of the area around each spine on the petiole and rachis is of unknown origin but persists even on herbarium material.
+
+[Source](page.link)

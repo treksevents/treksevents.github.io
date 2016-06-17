@@ -1,5 +1,9 @@
 name: Treks.events
-baseurl: ""
+baseurl: "/"
 sass:
   style: compressed
   sass_dir: _includes/scss
+collections:
+  learn:
+    output: true
+    permalink: /learn/:path/
