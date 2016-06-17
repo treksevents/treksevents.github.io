@@ -9,6 +9,7 @@ Litsea is a genus of evergreen or deciduous trees or shrubs belonging to the Lau
 
 Trees or shrubs, dioecious. The leaves can be either deciduous or evergreen depending on species, and aromatic. The flowers are from greenish to white, greenish-yellow, yellowish.
 
+## Characteristics
 The genus includes species of trees, and shrubs, with evergreen or deciduous foliage and inconspicuous flowers.
 
 They have leaves alternate or opposite or in whorls. The inflorescences are pseudo-umbels, flat-topped or rounded flower clusters, each pseudo-umbel with an involucre of four or six decussate bracts.

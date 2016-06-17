@@ -25,15 +25,21 @@
   }
   .story {
     // background-color: #FFF1D0;
-    padding: 150px 100px;
+    padding-top: 150px;
     h1 {
       color: #000;
       margin-bottom: 100px;
+    }
+    h2 {
+      margin-top: 100px;
     }
     a {
       text-decoration: none;
       font-style: italic;
       color: #D1BD9B;
+      &:hover {
+        color: #726658;
+      }
     }
     // &::before {
     //   border-color: transparent transparent #FFF1D0 transparent;

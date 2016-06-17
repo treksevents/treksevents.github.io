@@ -28,7 +28,9 @@ body {
 .unisonbuilding {
   background-color: $purple-dd;
 }
-
+a {
+  transition: color .5s;
+}
 b {
   font-weight: 600;
 }
@@ -51,4 +53,7 @@ h3 {
 }
 button {
   cursor: pointer;
+}
+ol, ul {
+  list-style-position:inside;
 }

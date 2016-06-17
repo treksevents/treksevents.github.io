@@ -1,5 +1,5 @@
 ---
-title: Sesenduk Endospermum diadenum (Miq.) Airy Shaw
+title: Sesenduk - Endospermum diadenum (Miq.) Airy Shaw
 link: http://tropical.theferns.info/viewtropical.php?id=Endospermum+diadenum
 layout: learn
 ---

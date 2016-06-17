@@ -1,5 +1,5 @@
 ---
-title: Daemonorops sp.
+title: Rotan cincin – Daemonorops macrophyllus Becc.
 link: https://en.wikipedia.org/wiki/Daemonorops
 layout: learn
 ---
