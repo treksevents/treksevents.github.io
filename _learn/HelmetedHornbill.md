@@ -3,7 +3,7 @@ title: Helmeted Hornbill
 link: https://en.wikipedia.org/wiki/Helmeted_hornbill
 layout: learn
 ---
-# {page.title}
+# {{page.title}}
 
 The helmeted hornbill (Rhinoplax vigil) is a very large bird in the hornbill family. It is found on the Malay Peninsula, Sumatra and Borneo. The casque (helmetlike structure on the head) accounts for some 11% of its 3 kg weight. Unlike any other hornbill, the casque is almost solid, and is used in head-to-head combat among males. It is a belief among the Punan Bah that a large helmeted hornbill guards the river between life and death.
 
