@@ -1,5 +1,5 @@
 ---
-title: Silver Lutung
+title: Silvery Lutung
 link: https://en.wikipedia.org/wiki/Silvery_lutung
 layout: learn
 ---
