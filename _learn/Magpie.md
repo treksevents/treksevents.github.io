@@ -25,20 +25,35 @@ Other research has cast doubt on the taxonomy of the Pica magpies, since it appe
 
 - Genus Urocissa
  - Taiwan blue magpie Urocissa caerulea
-Red-billed blue magpie, Urocissa erythrorhyncha
-Yellow-billed blue magpie, Urocissa flavirostris
-White-winged magpie, Urocissa whiteheadi
-Sri Lanka blue magpie, Urocissa ornata
-Genus Cissa
-Common green magpie, Cissa chinensis
-Indochinese green magpie, Cissa hypoleuca
-Javan green magpie, Cissa thalassina
-Bornean green magpie, Cissa jefferyi
-Azure-winged magpies
+ - Red-billed blue magpie, Urocissa erythrorhyncha
+ - Yellow-billed blue magpie, Urocissa flavirostris
+ - White-winged magpie, Urocissa whiteheadi
+ - Sri Lanka blue magpie, Urocissa ornata
 
-Genus Cyanopica
-Azure-winged magpie, Cyanopica cyanus
-Iberian magpie, Cyanopica cooki
+- Genus Cissa
+ - Common green magpie, Cissa chinensis
+ - Indochinese green magpie, Cissa hypoleuca
+ - Javan green magpie, Cissa thalassina
+ - Bornean green magpie, Cissa jefferyi
 
+### Azure-winged magpies
+
+- Genus Cyanopica
+ - Azure-winged magpie, Cyanopica cyanus
+ - Iberian magpie, Cyanopica cooki
+
+## Other "magpies"
+
+- The black magpie, Platysmurus leucopterus, is a treepie; it is neither a magpie nor, as was long believed, a jay. Treepies are a distinct group of corvids externally similar to magpies.
+
+- The Australian magpie, Cracticus tibicen, is conspicuously piebald, with black and white plumage reminiscent of a European magpie. It is a member of the family Cracticidae and not a corvid.
+
+## In culture
+
+- The Weaver Girl and the Cowherd, Chinese folk tale where a flock of magpies form a bridge to reunite the lovers for one day.
+
+- "Heckle and Jeckle", a cartoon about magpies who were always getting into trouble, shown in the United States in the 1960s.
+
+- One for Sorrow (nursery rhyme)
 
 [Source](page.link)
