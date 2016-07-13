@@ -1,0 +1,16 @@
+---
+title: Beetle
+link: 
+layout: learn
+---
+# {{page.title}}
+
+Beetles are a group of insects that form the order Coleoptera. The word "coleoptera" is from the Greek κολεός, koleos, meaning "sheath"; and πτερόν, pteron, meaning "wing", thus "sheathed wing", because most beetles have two pairs of wings, the front pair, the "elytra", being hardened and thickened into a shell-like protection for the rear pair and the beetle's abdomen. The order contains more species than any other order, constituting almost 25% of all known life-forms[citation needed]. About 40% of all described insect species are beetles (about 400,000 species), and new species are discovered frequently. The largest taxonomic family, the Curculionidae (the weevils or snout beetles), also belongs to this order.
+
+The diversity of beetles is very wide-ranging. They are found in almost all types of habitats, but are not known to occur in the sea or in the polar regions. They interact with their ecosystems in several ways. They often feed on plants and fungi, break down animal and plant debris, and eat other invertebrates. Some species are prey of various animals including birds and mammals. Certain species are agricultural pests, such as the Colorado potato beetle Leptinotarsa decemlineata, the boll weevil Anthonomus grandis, the red flour beetle Tribolium castaneum, and the mungbean or cowpea beetle Callosobruchus maculatus, while other species of beetles are important controls of agricultural pests. For example, beetles in the family Coccinellidae ("ladybirds" or "ladybugs") consume aphids, scale insects, thrips, and other plant-sucking insects that damage crops.
+
+Species in the order Coleoptera are generally characterized by a particularly hard exoskeleton and hard forewings (elytra, singular elytron). These elytra distinguish beetles from most other insect species, except for a few species of Hemiptera. The beetle's exoskeleton is made up of numerous plates called sclerites, separated by thin sutures. This design creates the armored defenses of the beetle while maintaining flexibility. The general anatomy of a beetle is quite uniform, although specific organs and appendages may vary greatly in appearance and function between the many families in the order. Like all insects, beetles' bodies are divided into three sections: the head, the thorax, and the abdomen. Coleopteran internal morphology is similar to other insects, although there are several examples of novelty. Such examples include species of water beetle which use air bubbles in order to dive under the water, and can remain submerged thanks to passive diffusion as oxygen moves from the water into the bubble.
+
+Beetles are endopterygotes, which means that they undergo complete metamorphosis, a biological process by which an animal physically develops after birth or hatching, undergoing a series of conspicuous and relatively abrupt change in their body structure. Coleopteran species have an extremely intricate behavior when mating, using such methods as pheromones for communication to locate potential mates. Males may fight for females using very elongated mandibles, causing a strong divergence between males and females in sexual dimorphism.
+
+[Source](page.link)
