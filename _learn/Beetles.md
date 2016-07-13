@@ -1,6 +1,6 @@
 ---
 title: Beetle
-link: 
+link: https://en.wikipedia.org/wiki/Beetle
 layout: learn
 ---
 # {{page.title}}
