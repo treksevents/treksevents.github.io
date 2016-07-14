@@ -139,3 +139,19 @@
     list-style-position: outside;
   }
 }
+.natureconcepts {
+  ol {
+    width: 40%;
+    text-align: left;
+    margin-top: 0;
+    padding-left: 18px;
+    list-style-position: outside;
+    ol {
+      width: 100%;
+      list-style-type: lower-alpha;
+      ol {
+        list-style-type: lower-roman;
+      }
+    }
+  }
+}
