@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home - Treks.events</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600|Exo+2:700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/treks.css">
+    <style>
+      b {
+        font-weight: 600;
+      }
+      main {
+        padding: 20px;
+      }
+      .hunt {
+        padding: 20px;
+        border: 1px solid #ccc;
+        background-color: #f6f6f6;
+        margin-bottom: 20px;
+      }
+      .hunt.correct {
+        background-color: #c5e4a5;
+        border-color: #00c376;
+      }
+      .done {
+        text-align: center;
+        font-size: 48px;
+        padding: 50px;
+      }
+    </style>
+  </head>
+  <body class="  home ">
+    <main>
+      <div id="question">
+
+</div>
+<script src="/treks.js"></script>
+<script type="text/javascript">
+$(function(){
+  var div = $('#question');
+
+  var o = [
+    {
+      t: 'Treasure 01',
+      q: 'Question 01',
+      qr: '01',
+      a: '01'
+    },
+    {
+      t: 'Treasure 02',
+      q: 'Question 02',
+      qr: '02',
+      a: '02'
+    },
+    {
+      t: 'Treasure 03',
+      q: 'Question 03',
+      qr: '03',
+      a: '03'
+    },
+    // {
+    //   t: 'Treasure 04',
+    //   q: 'Question 04',
+    //   qr: '04',
+    //   a: '04'
+    // },
+    // {
+    //   t: 'Treasure 05',
+    //   q: 'Question 05',
+    //   qr: '05',
+    //   a: '05'
+    // },
+    // {
+    //   t: 'Treasure 06',
+    //   q: 'Question 06',
+    //   qr: '06',
+    //   a: '06'
+    // },
+    // {
+    //   t: 'Treasure 07',
+    //   q: 'Question 07',
+    //   qr: '07',
+    //   a: '07'
+    // },
+    // {
+    //   t: 'Treasure 08',
+    //   q: 'Question 08',
+    //   qr: '08',
+    //   a: '08'
+    // },
+    // {
+    //   t: 'Treasure 09',
+    //   q: 'Question 09',
+    //   qr: '09',
+    //   a: '09'
+    // },
+    // {
+    //   t: 'Treasure 10',
+    //   q: 'Question 10',
+    //   qr: '10',
+    //   a: '10'
+    // },
+  ];
+
+  var arr = [0,1,2]; //,3,4,5,6,7,8,9];
+
+  var index = 1;
+
+  function randomquestion() {
+    r = Math.floor(Math.random() * arr.length);
+    q = arr[r];
+    arr.splice(r, 1);
+    return q;
+  }
+
+  function code(i) {
+    div.append(
+      '<div class="hunt" id="code' + i +'">' +
+      '<p>what is the hidden code for <b>' + o[i].t + '</b> to reveal the question?<p>' +
+      '<input id="qr' + i +'" value="'+ o[i].a + '">' +
+      '<button id="btn-qr' + i +'" type="button">Submit</button>' +
+      '</div>'
+    );
+    $('#btn-qr' + i).click(function(){
+      if ($('#qr' + i).val() === o[i].qr) {
+        $('.error').remove();
+        $('#code' + i).remove();
+        question(i);
+      } else {
+        div.append('<p class="error"><i>try again</i></p>');
+      }
+    });
+  }
+  function question(i) {
+    div.append(
+      '<div class="hunt" id="question' + i +'">' +
+      '<p><b>' + o[i].q + '</b><p>' +
+      '<input id="a' + i +'" value="'+ o[i].a + '">' +
+      '<button id="btn-a' + i +'" type="button">Submit</button>' +
+      '</div>'
+    );
+    $('#btn-a' + i).click(function(){
+      if ($('#a' + i).val() === o[i].a) {
+        $('.error').remove();
+        $('#btn-a' + i).remove();
+        $('#question' + i).addClass('correct');
+
+        if (arr.length > 0) {
+          code(randomquestion());
+        } else {
+          div.append('<div class="done">Congrats! show Eddie this page</div>');
+        }
+      } else {
+        div.append('<p class="error"><i>try again</i></p>');
+      }
+    });
+  }
+
+
+  // start
+  code(randomquestion());
+
+});
+
+</script>
+
+    </main>
+  </body>
+</html>
